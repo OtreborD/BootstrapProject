@@ -1,0 +1,88 @@
+ .carousel-item{
+    height: 32rem;
+    background: grey;
+    color: #fff;
+    position: relative;
+    background-position: center;
+    background-size: cover; 
+}
+
+ .container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+ .overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.banner{
+    background: rgb(2,6,19);
+background: linear-gradient(90deg, rgba(2,6,19,1) 0%, rgba(0,0,0,1) 48%, rgba(2,12,23,1) 100%);
+}
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+
+.about-1 h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+    color: #fff;   
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 80px,30px;
+    box-shadow: 0 0 9px rgba(0,0,0 .6);
+}
+.about-item h3{
+    font-size: 25px;
+    margin: 0;
+}
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: #5fbff9;
+    margin: 0 auto;
+    border: none;
+}
+.about-item p{
+    margin-top: 20px;
+}
+.about-item:hover{
+    background-color: #5fbff9;
+}
+.about-item:hover h3,
+.about-item:hover p{
+    color: #fff;
+}
+.about-item:hover hr{
+    background-color: #fff;
+}
+
+main>.container {
+    padding: 30px 0;
+    justify-content: center;
+}
+main img{
+    height: 200px;
+    width: 200px;
+}
